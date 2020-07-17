@@ -22,7 +22,15 @@ class Shelter
 
     def find_all_adopted
         find_all_in_shelter.map do |animal|
-            animal.owner
+            if(animal.owner)
+                animal
+            end
+        end
+    end
+
+    def find_by_shelter(shelter_name)
+        Animal.all.select do |animal|
+            animal.shelter == shelter_name
         end
     end
 
