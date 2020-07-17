@@ -35,11 +35,11 @@ Post -> Tags
 
 
 ## Practice
-- Shelters 
-- Animal can belong to one shelter
-- Shelter can have many animals 
+- Shelters ✔️
+- Animal can belong to one shelter ✔️
+- Shelter can have many animals ✔️
 - Methods...
     - find_all_in_shelter: which find all the animals that are curently in a shelter ✔️
-    - find_all_adopted: which find all the animals that are curently adopted / have an owner
-    - find_by_shelter: by shelter name
+    - find_all_adopted: which find all the animals that are curently adopted / have an owner ✔️
+    - find_by_shelter: by shelter name ✔️
     - ... the world is your oyster!
