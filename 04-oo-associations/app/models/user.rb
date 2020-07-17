@@ -74,6 +74,13 @@ class User
         @views += 1
     end
 
+    def find_by_shelter(shelter_name)
+        Animal.all.select do |animal|
+            animal.shelter == shelter_name
+        end
+
+    end
+
 
 end
 

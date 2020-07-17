@@ -1,12 +1,13 @@
 class Animal
-    attr_accessor :type, :name, :speak, :owner
+    attr_accessor :type, :name, :speak, :owner, :shelter
     @@all = []
 
-    def initialize(type, name, speak, owner=nil)
+    def initialize(type, name, speak, owner=nil, shelter=nil)
         @type = type
         @name = name
         @speak = speak
         @owner = owner
+        @shelter = shelter
         Animal.all << self
     end
 
